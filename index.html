@@ -4,21 +4,57 @@
   <head>
     <meta charset="utf-8" />
     <title>React Tutorial</title>
-    <script src="build/react.js"></script>
-    <script src="build/react-dom.js"></script>
-    <script src="build/browser.min.js"></script>
-    <script src="build/jquery.min.js"></script>
-    <script src="build/marked.min.js"></script>
+<!--    <script src="build/react.js"></script>-->
+<!--    <script src="build/react-dom.js"></script>-->
+<!--    <script src="build/browser.min.js"></script>-->
+<!--    <script src="build/jquery.min.js"></script>-->
+<!--    <script src="build/marked.min.js"></script>-->
     <link type="text/css" rel="stylesheet" href="css/card_print.css">
   </head>
   <body>
+    <fieldset>
 
-    <div id="content"></div>
-    <script type="text/babel" src="js/card/cards.js"></script>
-    <script type="text/babel">
-      
-      // To get started with this tutorial running your own code, simply remove
-      // the script tag loading scripts/example.js and start writing code here.
-    </script>
+        <select id="classes"></select>
+
+        <select id="source"></select>
+
+
+        <input type="checkbox" id="cell0" name="cell" value="0" />
+        <label for="cell0">0</label>
+
+        <input type="checkbox" id="cell1" name="cell" value="1" />
+        <label for="cell1">1</label>
+
+        <input type="checkbox" id="cell2" name="cell" value="2" />
+        <label for="cell2">2</label>
+
+        <input type="checkbox" id="cell3" name="cell" value="3" />
+        <label for="cell3">3</label>
+
+        <input type="checkbox" id="cell4" name="cell" value="4" />
+        <label for="cell4">4</label>
+
+        <input type="checkbox" id="cell5" name="cell" value="5" />
+        <label for="cell5">5</label>
+
+        <input type="checkbox" id="cell6" name="cell" value="6" />
+        <label for="cell6">6</label>
+
+        <input type="checkbox" id="cell7" name="cell" value="7" />
+        <label for="cell7">7</label>
+
+        <input type="checkbox" id="cell8" name="cell" value="8" />
+        <label for="cell8">8</label>
+
+        <input type="checkbox" id="cell9" name="cell" value="9" />
+        <label for="cell9">9</label>
+
+    </fieldset>
+
+        <div id="content"></div>
+        <div id="templates"></div>
+
+  <script src="js/classes.js"></script>
+  <script src="js/read.js"></script>
   </body>
 </html>

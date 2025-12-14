@@ -1,0 +1,14 @@
+{
+  "classes": [
+    { "id": "all", "name": "Все" },
+    { "id": "Arcane", "name": "Волшебник"},
+    { "id": "magician", "name": "Колдун"},
+    { "id": "Sorcerer", "name": "Чародей"},
+    { "id": "Ranger", "name": "Следопыт" },
+    { "id": "Cleric", "name": "Жрец" },
+    { "id": "Druid", "name": "Друид" },
+    { "id": "Paladin", "name": "Паладин" },
+    { "id": "Bard", "name": "Бард" },
+    { "id": "Artificer", "name": "Изобретатель" }
+  ]
+}
