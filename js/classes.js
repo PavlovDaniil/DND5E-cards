@@ -1,6 +1,7 @@
 async function loadClasses() {
   // 1. Загружаем JSON
-  const response = await fetch('../api/classes.json?_=' + Date.now());  const data = await response.json();
+  const response = await fetch('../api/classes.json?_=' + Date.now());
+  const data = await response.json();
 
   // 2. Находим select
   const select = document.getElementById('classes');

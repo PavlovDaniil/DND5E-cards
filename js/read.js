@@ -7,7 +7,7 @@ checkboxes.forEach(cb => {
     cb.addEventListener('change', onFormChange);
 });
 
-function onFormChange(e) {
+function onFormChange() {
     const state = {
         selectedClass: document.getElementById('classes').value,
         checkedCells: Array.from(
