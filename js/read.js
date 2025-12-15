@@ -14,7 +14,7 @@ function onFormChange() {
             document.querySelectorAll('input[name="cell"]:checked')
         ).map(cb => cb.value)
     };
-    console.log(state);
+    // console.log(state);
     return state;
 }
 
